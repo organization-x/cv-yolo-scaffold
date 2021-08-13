@@ -1,0 +1,1254 @@
+(base) ]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ conda activatr [K[Ke cv
+(cv) ]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ op[K[Kpython main.py
+[INFO] loading YOLO from disk...
+Traceback (most recent call last):
+  File "main.py", line 39, in <module>
+    net = get_yolo_net(cfg_path, weights_path)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/ai.py", line 18, in get_yolo_net
+    net = cv2.dnn.readNetFromDarknet(cfg_path, weight_path)
+cv2.error: OpenCV(4.5.2) ../modules/dnn/src/darknet/darknet_importer.cpp:214: error: (-212:Parsing error) Failed to parse NetParameter file: yolo/yolo.weights in function 'readNetFromDarknet'
+
+(cv) ]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ python main.py
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalcx.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12388/ (Press CTRL+C to quit)
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalcx.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/
+
+
+ * Debugger is active!
+ * Debugger PIN: 213-400-423
+ v127.0.0.1 - - [12/Aug/2021 16:35:36] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:36] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:36] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:36] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/images/aicamplogo250.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:36] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/images/55e5d543435bac14f6da8c7dda793678153bdee757596c4870267dd1964bc551bf_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:36] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/images/ScreenShot2020-07-21at1.10.15PM.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:36] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/images/52e8dc4b4f55ad14f6da8c7dda793678153bdee757596c4870267dd19648cd5fb9_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/images/54e5d3404e5bad14f6da8c7dda793678153bdee757596c4870267dd1964bc158be_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/images/52e8dc404c54ac14f6da8c7dda793678153bdee757596c4870267dd19648cd5fb9_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/images/5ee1d2404c5ab108f5d084609629317e113fdce15b4c704c7c297ed59149c55e_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:35:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/static/images/53e1d6454857a514f6da8c7dda793678153bdee757596c4870267dd1964bc15abc_1280.jpg HTTP/1.1[0m" 200 -
+ * Detected change in '/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py', reloading
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/
+
+
+ * Debugger is active!
+ * Debugger PIN: 451-275-227
+127.0.0.1 - - [12/Aug/2021 16:36:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:36:49] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/Home.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:36:49] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/nicepage.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:36:49] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/AICAMP.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:36:49] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:36:49] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:36:49] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:36:49] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/nicepage.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:37:50] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:37:50] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/nicepage.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:37:50] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/Home.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:37:50] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:37:50] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/AICAMP.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:37:50] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:37:50] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:37:50] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/nicepage.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:17] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:38:17] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/nicepage.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:17] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/AICAMP.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:17] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/Home.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:17] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:17] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:17] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:17] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/nicepage.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:24] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:38:24] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/nicepage.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:24] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/Home.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:24] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/AICAMP.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:24] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:24] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:24] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:25] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12388/nicepage.js HTTP/1.1[0m" 404 -
+^Z
+[1]+  Stopped                 python main.py
+(cv) ]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ python main.py
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12389/ (Press CTRL+C to quit)
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/
+
+
+ * Debugger is active!
+ * Debugger PIN: 194-473-942
+127.0.0.1 - - [12/Aug/2021 16:38:45] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:38:45] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/nicepage.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:45] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/Home.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:45] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/images/AICAMP.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:45] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:45] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:45] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:38:45] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/nicepage.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/images/AICAMP.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/ANSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/ARSTUDENT.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/IMG_5483.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:20] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/HSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:21] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/LSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:21] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/VSTUDENT.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:21] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/Instructor.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/images/AICAMP.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/ANSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/ARSTUDENT.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/IMG_5483.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/HSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/LSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/VSTUDENT.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:39:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/Instructor.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:40:43] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:40:43] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/images/AICAMP.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:40:43] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:40:43] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:40:43] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:41:52] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:42:28] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:42:55] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:42:59] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 2.671353 seconds
+[4, 4]
+[(45, -9, 224, 256), (59, -10, 198, 255)]
+[0.9985421299934387, 0.9993641376495361]
+[[1]]
+after NMS, we have these indices
+[1]
+Jupiter
+127.0.0.1 - - [12/Aug/2021 16:43:02] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/uploads/jupiter.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:43:02] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/aicamplogo250.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:43:02] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/Results.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:43:02] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/files/yolo_jupiter.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:43:02] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/54e4dd474b56aa14f6da8c7dda793678153bdee757596c4870267dd5924ccd5bba_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:43:17] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+[INFO] YOLO took 2.541997 seconds
+[4, 4]
+[(45, -9, 224, 256), (59, -10, 198, 255)]
+[0.9985421299934387, 0.9993641376495361]
+[[1]]
+after NMS, we have these indices
+[1]
+Jupiter
+127.0.0.1 - - [12/Aug/2021 16:45:50] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/uploads/jupiter.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 2.442264 seconds
+[4, 4]
+[(45, -9, 224, 256), (59, -10, 198, 255)]
+[0.9985421299934387, 0.9993641376495361]
+[[1]]
+after NMS, we have these indices
+[1]
+Jupiter
+127.0.0.1 - - [12/Aug/2021 16:48:58] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/uploads/jupiter.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:48:58] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/astronaut_with_laptop_in_space_hi.jpg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.337143 seconds
+[4, 4]
+[(45, -9, 224, 256), (59, -10, 198, 255)]
+[0.9985421299934387, 0.9993641376495361]
+[[1]]
+after NMS, we have these indices
+[1]
+Jupiter
+127.0.0.1 - - [12/Aug/2021 16:50:54] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/uploads/jupiter.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.307505 seconds
+[4, 4]
+[(45, -9, 224, 256), (59, -10, 198, 255)]
+[0.9985421299934387, 0.9993641376495361]
+[[1]]
+after NMS, we have these indices
+[1]
+Jupiter
+127.0.0.1 - - [12/Aug/2021 16:51:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/uploads/jupiter.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.288812 seconds
+[4, 4]
+[(45, -9, 224, 256), (59, -10, 198, 255)]
+[0.9985421299934387, 0.9993641376495361]
+[[1]]
+after NMS, we have these indices
+[1]
+Jupiter
+127.0.0.1 - - [12/Aug/2021 16:52:04] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/uploads/jupiter.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.311292 seconds
+[4, 4]
+[(45, -9, 224, 256), (59, -10, 198, 255)]
+[0.9985421299934387, 0.9993641376495361]
+[[1]]
+after NMS, we have these indices
+[1]
+Jupiter
+127.0.0.1 - - [12/Aug/2021 16:52:54] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/uploads/jupiter.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:52:54] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/static/images/confusion_matrix.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:53:00] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:53:09] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/Home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:53:36] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/Home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:55:00] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/Home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 16:55:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:55:08] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:56:13] "[35m[1mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py", line 45, in home
+    return render_template('home.html')
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/templates/home.html", line 52, in top-level template code
+    </li><li class="u-nav-item"><a class="u-border-2 u-border-grey-75 u-button-style u-nav-link u-radius-50" href="{{ url_for('about') }}">About</a>
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/werkzeug/routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'about'. Did you mean 'results' instead?
+127.0.0.1 - - [12/Aug/2021 16:56:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:56:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:56:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:56:14] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:56:14] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:56:14] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:56:53] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:56:55] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:56:56] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/About.html HTTP/1.1[0m" 404 -
+ * Detected change in '/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py', reloading
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/
+
+
+ * Debugger is active!
+ * Debugger PIN: 238-160-515
+ * Detected change in '/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py', reloading
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/
+
+
+ * Debugger is active!
+ * Debugger PIN: 301-228-430
+ * Detected change in '/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py', reloading
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/
+
+
+ * Debugger is active!
+ * Debugger PIN: 152-715-207
+ * Detected change in '/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py', reloading
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/
+
+
+ * Debugger is active!
+ * Debugger PIN: 145-130-901
+ * Detected change in '/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py', reloading
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/
+
+
+ * Debugger is active!
+ * Debugger PIN: 297-313-402
+127.0.0.1 - - [12/Aug/2021 16:59:05] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 16:59:09] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/about HTTP/1.1[0m" 404 -
+ * Detected change in '/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py', reloading
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/
+
+
+ * Debugger is active!
+ * Debugger PIN: 626-379-536
+127.0.0.1 - - [12/Aug/2021 16:59:26] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/about HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:00:28] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12389/about HTTP/1.1[0m" 404 -
+ * Detected change in '/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py', reloading
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12390/
+
+
+ * Debugger is active!
+ * Debugger PIN: 102-139-179
+^Z
+[2]+  Stopped                 python main.py
+(cv) ]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ co[K[Kpython main.py
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12394/ (Press CTRL+C to quit)
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/
+
+
+ * Debugger is active!
+ * Debugger PIN: 111-907-021
+127.0.0.1 - - [12/Aug/2021 17:14:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/ANSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/IMG_5483.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/HSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/ARSTUDENT.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/LSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/VSTUDENT.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/static/images/Instructor.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:14:24] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/About.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:14:34] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/about.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:14:38] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/about HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:14:40] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/about HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:15:16] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/About.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:15:32] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:16:28] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:17:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:17:25] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:17:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/ HTTP/1.1[0m" 200 -
+ * Detected change in '/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py', reloading
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/
+
+
+ * Debugger is active!
+ * Debugger PIN: 543-457-794
+127.0.0.1 - - [12/Aug/2021 17:18:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:18:27] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/about333 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:18:35] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/about33 HTTP/1.1[0m" 404 -
+ * Detected change in '/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py', reloading
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12394/
+
+
+ * Debugger is active!
+ * Debugger PIN: 302-322-512
+^Z
+[3]+  Stopped                 python main.py
+(cv) ]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ python main.py
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12395/ (Press CTRL+C to quit)
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/
+
+
+ * Debugger is active!
+ * Debugger PIN: 238-888-226
+127.0.0.1 - - [12/Aug/2021 17:19:11] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:11] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:11] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:11] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:11] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ANSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/IMG_5483.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ARSTUDENT.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/HSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/LSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/VSTUDENT.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/Instructor.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:19:13] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/nicepage.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:19:13] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/Home.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:19:13] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/default-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:19:13] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/moon-115309715939lc2praf0e.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:19:13] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:19:13] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/nicepage.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:21:11] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:21:11] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/moon-115309715939lc2praf0e.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:21:11] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/default-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:22:25] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:22:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/anicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:22:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/about.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:22:26] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/moon-115309715939lc2praf0e.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:22:26] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/default-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:23:19] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:23:19] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/moon-115309715939lc2praf0e.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:23:56] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:23:56] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/moon-115309715939lc2praf0e.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:24:35] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:25:05] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:25:19] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/Home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:26:12] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/Home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:26:15] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/Home.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:26:25] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:26:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:26:27] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:26:28] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:26:29] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:26:36] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 3.480621 seconds
+[4, 4]
+[(45, -9, 224, 256), (59, -10, 198, 255)]
+[0.9985421299934387, 0.9993641376495361]
+[[1]]
+after NMS, we have these indices
+[1]
+Jupiter
+127.0.0.1 - - [12/Aug/2021 17:26:39] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/jupiter.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:26:40] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/aicamplogo250.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:26:40] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/Results.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:26:40] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/files/yolo_jupiter.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:26:40] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/astronaut_with_laptop_in_space_hi.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:26:40] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/confusion_matrix.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:28:56] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:29:03] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:29:04] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:29:17] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 3.007798 seconds
+[6, 6, 4, 6, 6, 6, 4, 4, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5]
+[(253, 58, 39, 52), (254, 59, 37, 49), (7, 39, 111, 95), (248, 63, 48, 43), (252, 64, 42, 43), (252, 64, 42, 41), (9, 39, 109, 93), (16, 43, 98, 87), (123, -5, 120, 187), (122, 8, 122, 156), (126, -21, 123, 210), (136, -4, 102, 180), (131, 0, 111, 175), (247, 58, 49, 51), (125, 8, 115, 167), (121, 21, 124, 140), (128, 2, 115, 178), (120, 10, 131, 161)]
+[0.3458198308944702, 0.4986409842967987, 0.94503253698349, 0.8945432901382446, 0.9364764094352722, 0.9248274564743042, 0.9754630923271179, 0.9892092943191528, 0.7357681393623352, 0.6653876304626465, 0.8194141387939453, 0.990679919719696, 0.9911659955978394, 0.896173894405365, 0.6593619585037231, 0.4635106027126312, 0.5802066922187805, 0.5887851119041443]
+[[12]
+ [ 7]
+ [ 4]]
+after NMS, we have these indices
+[12  7  4]
+Saturn
+Jupiter
+Uranus
+127.0.0.1 - - [12/Aug/2021 17:29:20] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:29:20] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/files/yolo_solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:29:34] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:29:35] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 2.737145 seconds
+[6, 6, 4, 6, 6, 6, 4, 4, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5]
+[(253, 58, 39, 52), (254, 59, 37, 49), (7, 39, 111, 95), (248, 63, 48, 43), (252, 64, 42, 43), (252, 64, 42, 41), (9, 39, 109, 93), (16, 43, 98, 87), (123, -5, 120, 187), (122, 8, 122, 156), (126, -21, 123, 210), (136, -4, 102, 180), (131, 0, 111, 175), (247, 58, 49, 51), (125, 8, 115, 167), (121, 21, 124, 140), (128, 2, 115, 178), (120, 10, 131, 161)]
+[0.3458198308944702, 0.4986409842967987, 0.94503253698349, 0.8945432901382446, 0.9364764094352722, 0.9248274564743042, 0.9754630923271179, 0.9892092943191528, 0.7357681393623352, 0.6653876304626465, 0.8194141387939453, 0.990679919719696, 0.9911659955978394, 0.896173894405365, 0.6593619585037231, 0.4635106027126312, 0.5802066922187805, 0.5887851119041443]
+[[12]
+ [ 7]
+ [ 4]]
+after NMS, we have these indices
+[12  7  4]
+Saturn
+Jupiter
+Uranus
+127.0.0.1 - - [12/Aug/2021 17:29:38] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:30:11] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:30:56] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:06] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:06] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:06] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:06] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:06] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:06] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:06] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:06] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/IMG_5483.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ARSTUDENT.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/HSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ANSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/LSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/VSTUDENT.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/Instructor.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ANSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:31:09] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/IMG_5483.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ARSTUDENT.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/HSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/LSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/VSTUDENT.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/Instructor.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ANSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/IMG_5483.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ARSTUDENT.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/HSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/LSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/VSTUDENT.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:10] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/Instructor.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:18] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 2.515027 seconds
+[6, 6, 4, 6, 6, 6, 4, 4, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5]
+[(253, 58, 39, 52), (254, 59, 37, 49), (7, 39, 111, 95), (248, 63, 48, 43), (252, 64, 42, 43), (252, 64, 42, 41), (9, 39, 109, 93), (16, 43, 98, 87), (123, -5, 120, 187), (122, 8, 122, 156), (126, -21, 123, 210), (136, -4, 102, 180), (131, 0, 111, 175), (247, 58, 49, 51), (125, 8, 115, 167), (121, 21, 124, 140), (128, 2, 115, 178), (120, 10, 131, 161)]
+[0.3458198308944702, 0.4986409842967987, 0.94503253698349, 0.8945432901382446, 0.9364764094352722, 0.9248274564743042, 0.9754630923271179, 0.9892092943191528, 0.7357681393623352, 0.6653876304626465, 0.8194141387939453, 0.990679919719696, 0.9911659955978394, 0.896173894405365, 0.6593619585037231, 0.4635106027126312, 0.5802066922187805, 0.5887851119041443]
+[[12]
+ [ 7]
+ [ 4]]
+after NMS, we have these indices
+[12  7  4]
+Saturn
+Jupiter
+Uranus
+127.0.0.1 - - [12/Aug/2021 17:31:21] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ANSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/IMG_5483.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/ARSTUDENT.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/HSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/LSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/VSTUDENT.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/Instructor.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:27] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 2.408032 seconds
+[6, 6, 4, 6, 6, 6, 4, 4, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5]
+[(253, 58, 39, 52), (254, 59, 37, 49), (7, 39, 111, 95), (248, 63, 48, 43), (252, 64, 42, 43), (252, 64, 42, 41), (9, 39, 109, 93), (16, 43, 98, 87), (123, -5, 120, 187), (122, 8, 122, 156), (126, -21, 123, 210), (136, -4, 102, 180), (131, 0, 111, 175), (247, 58, 49, 51), (125, 8, 115, 167), (121, 21, 124, 140), (128, 2, 115, 178), (120, 10, 131, 161)]
+[0.3458198308944702, 0.4986409842967987, 0.94503253698349, 0.8945432901382446, 0.9364764094352722, 0.9248274564743042, 0.9754630923271179, 0.9892092943191528, 0.7357681393623352, 0.6653876304626465, 0.8194141387939453, 0.990679919719696, 0.9911659955978394, 0.896173894405365, 0.6593619585037231, 0.4635106027126312, 0.5802066922187805, 0.5887851119041443]
+[[12]
+ [ 7]
+ [ 4]]
+after NMS, we have these indices
+[12  7  4]
+Saturn
+Jupiter
+Uranus
+127.0.0.1 - - [12/Aug/2021 17:31:29] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:31:43] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:44] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.315350 seconds
+[8, 8, 8, 8, 7, 7, 7, 7, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+[(166, 30, 62, 58), (170, 31, 54, 56), (87, 34, 60, 60), (91, 35, 52, 58), (39, 133, 18, 22), (38, 134, 20, 20), (71, 134, 20, 22), (70, 135, 20, 20), (105, 118, 49, 52), (105, 120, 50, 48), (105, 121, 49, 46), (168, 111, 56, 64), (168, 112, 55, 61), (166, 110, 60, 66), (104, 127, 51, 34), (166, 115, 63, 58), (167, 117, 59, 53)]
+[0.39571383595466614, 0.4276897609233856, 0.32982105016708374, 0.36923715472221375, 0.4262099266052246, 0.38252127170562744, 0.36976873874664307, 0.35022443532943726, 0.5256242156028748, 0.5559791922569275, 0.6724782586097717, 0.45257696509361267, 0.8005884289741516, 0.8685109615325928, 0.5255358815193176, 0.6970602869987488, 0.5119451284408569]
+[[13]
+ [10]
+ [ 1]
+ [ 4]
+ [ 6]
+ [ 3]]
+after NMS, we have these indices
+[13 10  1  4  6  3]
+Jupiter
+Jupiter
+Dwarf planet
+Neptune
+Neptune
+Dwarf planet
+127.0.0.1 - - [12/Aug/2021 17:32:44] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/download.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:44] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/Results.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:44] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/aicamplogo250.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:45] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/files/yolo_download.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:45] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/astronaut_with_laptop_in_space_hi.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:45] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/confusion_matrix.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:46] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:46] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/anicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:46] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/about.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:46] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/moon-115309715939lc2praf0e.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/anicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/about.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/moon-115309715939lc2praf0e.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:52] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:32:53] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:33:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:33:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:33:18] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:33:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:33:23] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:33:23] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:33:23] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ANSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:33:23] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/IMG_5483.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:33:23] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ARSTUDENT.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:33:23] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/HSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:33:23] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/LSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:33:23] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/VSTUDENT.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:33:23] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/Instructor.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 17:33:25] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:33:27] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:33:33] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.338916 seconds
+[2, 2, 11, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 4, 4, 5, 5, 5, 7, 7, 4, 5, 5, 5, 7, 2, 2, 11, 11, 2, 11, 2, 11, 4, 4, 5]
+[(84, 6, 55, 62), (84, 4, 56, 65), (235, 5, 60, 64), (233, 3, 61, 67), (12, 0, 53, 81), (82, 6, 61, 65), (82, 3, 59, 72), (82, 6, 59, 66), (155, 11, 62, 56), (158, 9, 63, 59), (161, 6, 58, 65), (158, 9, 61, 60), (234, 6, 61, 65), (235, 4, 60, 70), (234, 8, 59, 61), (8, 76, 65, 72), (7, 77, 66, 70), (88, 86, 47, 52), (87, 89, 50, 45), (86, 86, 53, 51), (234, 72, 61, 78), (233, 73, 62, 75), (5, 80, 67, 68), (88, 86, 49, 55), (89, 88, 48, 51), (89, 85, 48, 58), (234, 80, 61, 67), (88, 13, 45, 49), (240, 14, 46, 48), (19, 9, 45, 63), (21, 3, 39, 73), (93, 8, 42, 64), (94, 8, 38, 62), (241, 8, 44, 61), (240, 10, 45, 60), (12, 78, 55, 65), (15, 82, 56, 57), (85, 90, 48, 44)]
+[0.42688262462615967, 0.5771281123161316, 0.39797985553741455, 0.5352575778961182, 0.3135407269001007, 0.6649051308631897, 0.8852498531341553, 0.9140027165412903, 0.3062306046485901, 0.3175447881221771, 0.6570225358009338, 0.6747497320175171, 0.7473935484886169, 0.9251514673233032, 0.9474501609802246, 0.8660470843315125, 0.9608346819877625, 0.614857017993927, 0.8308737874031067, 0.8439892530441284, 0.615104615688324, 0.7725638151168823, 0.5151838660240173, 0.3423001170158386, 0.6044688820838928, 0.698884904384613, 0.37676265835762024, 0.35592010617256165, 0.4297295808792114, 0.32222259044647217, 0.671597421169281, 0.8563405871391296, 0.341190904378891, 0.7950029969215393, 0.652400016784668, 0.9152576923370361, 0.8108370304107666, 0.6053018569946289]
+[[16]
+ [14]
+ [ 7]
+ [19]
+ [21]
+ [11]
+ [30]]
+after NMS, we have these indices
+[16 14  7 19 21 11 30]
+Jupiter
+Venus
+Venus
+Saturn
+Neptune
+Mercury
+Sun
+127.0.0.1 - - [12/Aug/2021 17:33:33] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/download_1.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:33:33] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/files/yolo_download_1.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:33:56] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.356240 seconds
+[6, 6, 4, 6, 6, 6, 4, 4, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5]
+[(253, 58, 39, 52), (254, 59, 37, 49), (7, 39, 111, 95), (248, 63, 48, 43), (252, 64, 42, 43), (252, 64, 42, 41), (9, 39, 109, 93), (16, 43, 98, 87), (123, -5, 120, 187), (122, 8, 122, 156), (126, -21, 123, 210), (136, -4, 102, 180), (131, 0, 111, 175), (247, 58, 49, 51), (125, 8, 115, 167), (121, 21, 124, 140), (128, 2, 115, 178), (120, 10, 131, 161)]
+[0.3458198308944702, 0.4986409842967987, 0.94503253698349, 0.8945432901382446, 0.9364764094352722, 0.9248274564743042, 0.9754630923271179, 0.9892092943191528, 0.7357681393623352, 0.6653876304626465, 0.8194141387939453, 0.990679919719696, 0.9911659955978394, 0.896173894405365, 0.6593619585037231, 0.4635106027126312, 0.5802066922187805, 0.5887851119041443]
+[[12]
+ [ 7]
+ [ 4]]
+after NMS, we have these indices
+[12  7  4]
+Saturn
+Jupiter
+Uranus
+127.0.0.1 - - [12/Aug/2021 17:33:57] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:34:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:34:07] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.286896 seconds
+[6, 6, 4, 6, 6, 6, 4, 4, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5]
+[(253, 58, 39, 52), (254, 59, 37, 49), (7, 39, 111, 95), (248, 63, 48, 43), (252, 64, 42, 43), (252, 64, 42, 41), (9, 39, 109, 93), (16, 43, 98, 87), (123, -5, 120, 187), (122, 8, 122, 156), (126, -21, 123, 210), (136, -4, 102, 180), (131, 0, 111, 175), (247, 58, 49, 51), (125, 8, 115, 167), (121, 21, 124, 140), (128, 2, 115, 178), (120, 10, 131, 161)]
+[0.3458198308944702, 0.4986409842967987, 0.94503253698349, 0.8945432901382446, 0.9364764094352722, 0.9248274564743042, 0.9754630923271179, 0.9892092943191528, 0.7357681393623352, 0.6653876304626465, 0.8194141387939453, 0.990679919719696, 0.9911659955978394, 0.896173894405365, 0.6593619585037231, 0.4635106027126312, 0.5802066922187805, 0.5887851119041443]
+[[12]
+ [ 7]
+ [ 4]]
+after NMS, we have these indices
+[12  7  4]
+Saturn
+Jupiter
+Uranus
+127.0.0.1 - - [12/Aug/2021 17:34:08] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:34:10] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:34:15] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.333406 seconds
+[8, 8]
+[(18, 73, 1147, 1046), (-13, 70, 1226, 1036)]
+[0.983143150806427, 0.9854381680488586]
+[[1]]
+after NMS, we have these indices
+[1]
+Dwarf planet
+127.0.0.1 - - [12/Aug/2021 17:34:16] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/mars.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:34:16] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/files/yolo_mars.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:36:36] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:36:40] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:36:50] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.305602 seconds
+[6, 6, 4, 6, 6, 6, 4, 4, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5]
+[(253, 58, 39, 52), (254, 59, 37, 49), (7, 39, 111, 95), (248, 63, 48, 43), (252, 64, 42, 43), (252, 64, 42, 41), (9, 39, 109, 93), (16, 43, 98, 87), (123, -5, 120, 187), (122, 8, 122, 156), (126, -21, 123, 210), (136, -4, 102, 180), (131, 0, 111, 175), (247, 58, 49, 51), (125, 8, 115, 167), (121, 21, 124, 140), (128, 2, 115, 178), (120, 10, 131, 161)]
+[0.3458198308944702, 0.4986409842967987, 0.94503253698349, 0.8945432901382446, 0.9364764094352722, 0.9248274564743042, 0.9754630923271179, 0.9892092943191528, 0.7357681393623352, 0.6653876304626465, 0.8194141387939453, 0.990679919719696, 0.9911659955978394, 0.896173894405365, 0.6593619585037231, 0.4635106027126312, 0.5802066922187805, 0.5887851119041443]
+[[12]
+ [ 7]
+ [ 4]]
+after NMS, we have these indices
+[12  7  4]
+Saturn
+Jupiter
+Uranus
+127.0.0.1 - - [12/Aug/2021 17:36:50] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:37:38] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:37:38] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.293034 seconds
+[6, 6, 4, 6, 6, 6, 4, 4, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5]
+[(253, 58, 39, 52), (254, 59, 37, 49), (7, 39, 111, 95), (248, 63, 48, 43), (252, 64, 42, 43), (252, 64, 42, 41), (9, 39, 109, 93), (16, 43, 98, 87), (123, -5, 120, 187), (122, 8, 122, 156), (126, -21, 123, 210), (136, -4, 102, 180), (131, 0, 111, 175), (247, 58, 49, 51), (125, 8, 115, 167), (121, 21, 124, 140), (128, 2, 115, 178), (120, 10, 131, 161)]
+[0.3458198308944702, 0.4986409842967987, 0.94503253698349, 0.8945432901382446, 0.9364764094352722, 0.9248274564743042, 0.9754630923271179, 0.9892092943191528, 0.7357681393623352, 0.6653876304626465, 0.8194141387939453, 0.990679919719696, 0.9911659955978394, 0.896173894405365, 0.6593619585037231, 0.4635106027126312, 0.5802066922187805, 0.5887851119041443]
+[[12]
+ [ 7]
+ [ 4]]
+after NMS, we have these indices
+[12  7  4]
+Saturn
+Jupiter
+Uranus
+127.0.0.1 - - [12/Aug/2021 17:37:39] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 17:37:40] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:01:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:07:47] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:08:01] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:08:02] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:08:02] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:08:02] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ANSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:08:02] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/IMG_5483.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:08:02] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/HSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:08:02] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ARSTUDENT.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:08:02] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/LSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:08:02] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/VSTUDENT.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:08:02] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/Instructor.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:08:06] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.319912 seconds
+[0, 0, 0, 0, 0, 0, 0]
+[(94, 33, 67, 82), (96, 35, 65, 77), (93, 35, 70, 77), (91, 32, 75, 92), (97, 32, 66, 91), (97, 38, 64, 80), (87, 32, 82, 86)]
+[0.6836659908294678, 0.6738589406013489, 0.6876956820487976, 0.30638405680656433, 0.3026309609413147, 0.3994760513305664, 0.55626380443573]
+[[2]]
+after NMS, we have these indices
+[2]
+Earth
+127.0.0.1 - - [12/Aug/2021 18:08:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/laptop_astronaut.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:08:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/Results.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:08:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/confusion_matrix.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:08:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/files/yolo_laptop_astronaut.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:08:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/astronaut_with_laptop_in_space_hi.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:08:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/static/images/aicamplogo250.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:12:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:12:15] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:12:15] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:12:15] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:12:15] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ANSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:12:15] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/IMG_5483.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:12:15] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/ARSTUDENT.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:12:15] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/HSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:12:15] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/LSTUDENT.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:12:15] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/VSTUDENT.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:12:15] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/images/Instructor.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Aug/2021 18:12:17] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:12:19] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:12:21] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:12:21] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:12:23] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:12:25] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:12:28] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:12:30] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:17:50] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.840960 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:17:51] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/Wenqi.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:17:51] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/files/Wenqi.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:18:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:18:14] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.315773 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:18:14] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/Wenqi.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:18:15] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:18:21] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.330590 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:18:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/Wenqi.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 2.543354 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:19:18] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/Wenqi.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:19:22] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:19:22] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 2.521761 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:19:25] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/Wenqi.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:19:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:19:42] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 2.527234 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:19:45] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:19:45] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/files/3.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.321367 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:20:36] "[35m[1mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py", line 102, in results
+    return render_template('results.html', labels='No Objects', old_filename=filename, filename=filename)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/loaders.py", line 127, in load
+    code = environment.compile(source, name, filename)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 638, in compile
+    self.handle_exception(source=source_hint)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/templates/results.html", line 73, in template
+    {% if labels='No Objects'' %}
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of statement block', got '='
+127.0.0.1 - - [12/Aug/2021 18:20:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:20:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:20:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:20:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:20:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:20:37] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.427100 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:21:09] "[35m[1mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/main.py", line 102, in results
+    return render_template('results.html', labels='No Objects', old_filename=filename, filename=filename)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/loaders.py", line 127, in load
+    code = environment.compile(source, name, filename)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 638, in compile
+    self.handle_exception(source=source_hint)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/miniconda3/envs/cv/lib/python3.8/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/projects/bbdc6987-2c58-41c7-a407-18f0c165980e/cv-yolo-scaffold/app/templates/results.html", line 73, in template
+    {% if labels='No Objects' %}
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of statement block', got '='
+127.0.0.1 - - [12/Aug/2021 18:21:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:21:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:21:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:21:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:21:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:21:09] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.292468 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:21:18] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.339619 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:21:41] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.283957 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:22:06] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.312387 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:22:20] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 2.460041 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:23:17] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:23:17] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/static/images/AICAMP.png HTTP/1.1[0m" 404 -
+
+
+[INFO] YOLO took 2.411341 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:24:36] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/3.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 2.494603 seconds
+[7, 7]
+[(-6, 10, 139, 103), (10, 8, 106, 110)]
+[0.5615564584732056, 0.6700553297996521]
+[[1]]
+after NMS, we have these indices
+[1]
+Neptune
+127.0.0.1 - - [12/Aug/2021 18:24:39] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12395/uploads/AICAMP.png HTTP/1.1[0m" 200 -
+
+^Z
+[4]+  Stopped                 python main.py
+(cv) ]0;~/cv-yolo-scaffold/app[01;34m~/cv-yolo-scaffold/app[00m$ python main.py
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12396/ (Press CTRL+C to quit)
+ * Restarting with stat
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc1.ai-camp.org/bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/
+
+
+ * Debugger is active!
+ * Debugger PIN: 242-528-225
+127.0.0.1 - - [12/Aug/2021 18:25:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/e863a372e272b9c41b1f8c2f15e8701de70c4445ce98a9e8ccba2814a4a0496d869a9e7aaaa946f5ff5bc631c7954dc7170ff4687c505ea6be1845_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/3a8d50ec58349e162161031f506e31a6ade6eb4a9a6e5c8d081d34c9d38166d5eb5967d7ad50ac520d4c8b44cd4ba6666639f498f1b350f7e48813_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:12] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_1280.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/ANSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/IMG_5483.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/ge78c908588eea8c01bba778044e167970d0ec63b58bfa27422a44948eb22777f52fb129cc4a6361841743ee1f307a110_12801.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/ARSTUDENT.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/HSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/LSTUDENT.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/VSTUDENT.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:13] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/Instructor.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:24] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.871671 seconds
+[7, 7]
+[(-6, 10, 139, 103), (10, 8, 106, 110)]
+[0.5615564584732056, 0.6700553297996521]
+[[1]]
+after NMS, we have these indices
+[1]
+Neptune
+127.0.0.1 - - [12/Aug/2021 18:25:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/aicamplogo250.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/Results.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/files/yolo_AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/confusion_matrix.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:25:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/astronaut_with_laptop_in_space_hi.jpg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.652886 seconds
+[7, 7]
+[(-6, 10, 139, 103), (10, 8, 106, 110)]
+[0.5615564584732056, 0.6700553297996521]
+[[1]]
+after NMS, we have these indices
+[1]
+Neptune
+127.0.0.1 - - [12/Aug/2021 18:25:27] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/AICAMP.png HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.285006 seconds
+[7, 7]
+[(-6, 10, 139, 103), (10, 8, 106, 110)]
+[0.5615564584732056, 0.6700553297996521]
+[[1]]
+after NMS, we have these indices
+[1]
+Neptune
+127.0.0.1 - - [12/Aug/2021 18:26:29] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/AICAMP.png HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.344369 seconds
+[7, 7]
+[(-2, 20, 250, 203), (18, 20, 211, 207)]
+[0.7289122343063354, 0.7951210737228394]
+[[1]]
+after NMS, we have these indices
+[1]
+Neptune
+127.0.0.1 - - [12/Aug/2021 18:26:30] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/aicamplogo250.jpg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.333773 seconds
+[7, 7]
+[(-6, 10, 139, 103), (10, 8, 106, 110)]
+[0.5615564584732056, 0.6700553297996521]
+[[1]]
+after NMS, we have these indices
+[1]
+Neptune
+127.0.0.1 - - [12/Aug/2021 18:27:11] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:27:11] "[33mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/static/images/aicamplogo250.jpg HTTP/1.1[0m" 404 -
+[INFO] YOLO took 0.294147 seconds
+[7, 7]
+[(-6, 10, 139, 103), (10, 8, 106, 110)]
+[0.5615564584732056, 0.6700553297996521]
+[[1]]
+after NMS, we have these indices
+[1]
+Neptune
+127.0.0.1 - - [12/Aug/2021 18:27:45] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/AICAMP.png HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.328535 seconds
+[7, 7]
+[(-2, 20, 250, 203), (18, 20, 211, 207)]
+[0.7289122343063354, 0.7951210737228394]
+[[1]]
+after NMS, we have these indices
+[1]
+Neptune
+127.0.0.1 - - [12/Aug/2021 18:27:45] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/aicamplogo250.jpg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.320578 seconds
+[7, 7]
+[(-6, 10, 139, 103), (10, 8, 106, 110)]
+[0.5615564584732056, 0.6700553297996521]
+[[1]]
+after NMS, we have these indices
+[1]
+Neptune
+127.0.0.1 - - [12/Aug/2021 18:28:01] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:29:00] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:29:00] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.803096 seconds
+[7, 7]
+[(-6, 10, 139, 103), (10, 8, 106, 110)]
+[0.5615564584732056, 0.6700553297996521]
+[[1]]
+after NMS, we have these indices
+[1]
+Neptune
+127.0.0.1 - - [12/Aug/2021 18:29:01] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/AICAMP.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:29:02] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:29:10] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.747423 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:29:11] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/1.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:29:11] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/files/1.jpeg HTTP/1.1[0m" 200 -
+[INFO] YOLO took 0.908372 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:30:58] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/1.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:31:04] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:31:05] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.729467 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:31:06] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/1.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:31:07] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:41:52] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:41:52] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/anicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:41:52] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/about.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:41:52] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/static/images/moon-115309715939lc2praf0e.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:43:26] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:43:46] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.278625 seconds
+[6, 6, 4, 6, 6, 6, 4, 4, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5]
+[(253, 58, 39, 52), (254, 59, 37, 49), (7, 39, 111, 95), (248, 63, 48, 43), (252, 64, 42, 43), (252, 64, 42, 41), (9, 39, 109, 93), (16, 43, 98, 87), (123, -5, 120, 187), (122, 8, 122, 156), (126, -21, 123, 210), (136, -4, 102, 180), (131, 0, 111, 175), (247, 58, 49, 51), (125, 8, 115, 167), (121, 21, 124, 140), (128, 2, 115, 178), (120, 10, 131, 161)]
+[0.3458198308944702, 0.4986409842967987, 0.94503253698349, 0.8945432901382446, 0.9364764094352722, 0.9248274564743042, 0.9754630923271179, 0.9892092943191528, 0.7357681393623352, 0.6653876304626465, 0.8194141387939453, 0.990679919719696, 0.9911659955978394, 0.896173894405365, 0.6593619585037231, 0.4635106027126312, 0.5802066922187805, 0.5887851119041443]
+[[12]
+ [ 7]
+ [ 4]]
+after NMS, we have these indices
+[12  7  4]
+Saturn
+Jupiter
+Uranus
+127.0.0.1 - - [12/Aug/2021 18:43:46] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:43:46] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/files/yolo_solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:43:51] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:43:52] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.279669 seconds
+[6, 6, 4, 6, 6, 6, 4, 4, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5]
+[(253, 58, 39, 52), (254, 59, 37, 49), (7, 39, 111, 95), (248, 63, 48, 43), (252, 64, 42, 43), (252, 64, 42, 41), (9, 39, 109, 93), (16, 43, 98, 87), (123, -5, 120, 187), (122, 8, 122, 156), (126, -21, 123, 210), (136, -4, 102, 180), (131, 0, 111, 175), (247, 58, 49, 51), (125, 8, 115, 167), (121, 21, 124, 140), (128, 2, 115, 178), (120, 10, 131, 161)]
+[0.3458198308944702, 0.4986409842967987, 0.94503253698349, 0.8945432901382446, 0.9364764094352722, 0.9248274564743042, 0.9754630923271179, 0.9892092943191528, 0.7357681393623352, 0.6653876304626465, 0.8194141387939453, 0.990679919719696, 0.9911659955978394, 0.896173894405365, 0.6593619585037231, 0.4635106027126312, 0.5802066922187805, 0.5887851119041443]
+[[12]
+ [ 7]
+ [ 4]]
+after NMS, we have these indices
+[12  7  4]
+Saturn
+Jupiter
+Uranus
+127.0.0.1 - - [12/Aug/2021 18:43:52] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/solar.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:43:54] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:44:04] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.306168 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:44:04] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/2.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:44:04] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/files/2.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:46:49] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:46:49] "[32mPOST /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 302 -
+[INFO] YOLO took 0.299815 seconds
+[]
+[]
+[]
+()
+127.0.0.1 - - [12/Aug/2021 18:46:50] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/uploads/2.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [12/Aug/2021 18:46:52] "[37mGET /bbdc6987-2c58-41c7-a407-18f0c165980e/port/12396/ HTTP/1.1[0m" 200 -
+(base) ]0;~/Celestial-Body-Identifier/app[01;34m~/Celestial-Body-Identifier/app[00m$ 
